@@ -50,7 +50,9 @@ public class Topic01_check_environment {
   @AfterClass
   public void afterClass() {
 	  System.out.println("post-condition: Close Firefox browser");
+	 
 	  driver.quit();
+	  System.out.println("Edit to check intergrate Slack và Github");
   }
 
 }
